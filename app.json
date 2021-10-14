@@ -59,7 +59,6 @@
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
       "required": true
-      "value": ""
     },
     "PMPERMIT": {
       "description": "Change to turn off",
@@ -79,7 +78,6 @@
     "SUDO_USERS": {
       "description": "List of user IDs counted as admin everywhere (separated by space).",
       "required": true
-      "value": ""
     },
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
