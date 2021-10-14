@@ -1,6 +1,6 @@
 # DEPLOYMENT LINK
 The easiest way to deploy this Bot
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mpb00121/VoiceChat_Song_bot/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mpb00121/vc_bot/)
 
 
 ### Mandatory Vars.
