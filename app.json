@@ -13,7 +13,8 @@
   "env": {
     "SESSION_NAME": {
       "description": "Pyrogram session string",
-      "required": true
+      "required": true,
+      "value": ""
     },
     "BOT_TOKEN": {
       "description": "A bot token from @BotFather",
