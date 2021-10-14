@@ -2,7 +2,7 @@
 import logging
 from time import time
 from datetime import datetime
-from VoiceChat_Song_bot.config import BOT_USERNAME, BOT_NAME, ASSISTANT_NAME, OWNER_NAME, UPDATES_CHANNEL, SUPPORT_GROUP
+from VoiceChat_Song_bot.config import BOT_USERNAME, BOT_NAME, ASSISTANT_NAME, OWNER_NAME, SUPPORT_GROUP
 from VoiceChat_Song_bot.helpers.filters import command
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, Chat, CallbackQuery
