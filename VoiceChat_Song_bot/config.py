@@ -15,6 +15,7 @@ admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 BOT_USERNAME = getenv("BOT_USERNAME")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "THE_TVA")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "CatKing_ext")
 OWNER_NAME = getenv("OWNER_NAME", "Telecat_X")
 PROJECT_NAME = getenv("PROJECT_NAME", "VoiceChat_Song_bot")
