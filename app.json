@@ -49,7 +49,7 @@
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
-      "value": "https://te.legra.ph/file/43c8d0262dc019b2233af.jpg"
+      "value": "https://te.legra.ph/file/968c2b4dbb5b059e5acfb.jpg"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
