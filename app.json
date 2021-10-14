@@ -14,22 +14,22 @@
     "SESSION_NAME": {
       "description": "Pyrogram session string",
       "required": true
-      "value": ""
+      "value":""
     },
     "BOT_TOKEN": {
       "description": "A bot token from @BotFather",
       "required": true
-      "value": ""
+      "value":""
     },
     "BOT_USERNAME": {
       "description": "Your bot's username without @",
       "required": true
-      "value": ""
+      "value":""
     },
     "BOT_NAME": {
       "description": "Your MusicPlayer Bot Name.",
       "required": true,
-      "value": ""
+      "value":""
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.Rename with your own Name",
