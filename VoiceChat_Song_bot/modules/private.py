@@ -51,22 +51,7 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton(text="GO INLINE🔎", switch_inline_query="")
                 ],[
                     InlineKeyboardButton(
-                        "⚙️ Initial Setup", callback_data="cbhowtouse")
-                ],[
-                    InlineKeyboardButton(
                          "📚 Commands", callback_data="cbcmds"
-                    ),
-                    InlineKeyboardButton(
-                        "💝 Donate", url=f"https://t.me/Telecat_X") #these line can edit by your own Username!
-                ],[
-                    InlineKeyboardButton(
-                        "👥 Support", url=f"https://t.me/{SUPPORT_GROUP}"
-                    ),
-                    InlineKeyboardButton(
-                        "📣 Updates's", url=f"https://t.me/{UPDATES_CHANNEL}")
-                ],[
-                    InlineKeyboardButton(
-                        "🧪 Source Code 🧪", url="https://github.com/Abhijit-Sudhakaran/VoiceChat_Song_bot"
                     )
                 ]
             ]
@@ -87,9 +72,6 @@ async def start(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "⛔ Report", url=f"https://t.me/{SUPPORT_GROUP}"
-                    ),
-                    InlineKeyboardButton(
-                        "📣 What's New!", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
                 ]
             ]
