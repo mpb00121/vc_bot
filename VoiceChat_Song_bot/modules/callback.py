@@ -4,7 +4,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, Chat, CallbackQuery
 from VoiceChat_Song_bot.helpers.decorators import authorized_users_only
-from VoiceChat_Song_bot.config import BOT_NAME, BOT_USERNAME, OWNER_NAME, SUPPORT_GROUP, UPDATES_CHANNEL, ASSISTANT_NAME
+from VoiceChat_Song_bot.config import BOT_NAME, BOT_USERNAME, OWNER_NAME, SUPPORT_GROUP, ASSISTANT_NAME
 from VoiceChat_Song_bot.modules.botplay import cb_admin_check
 
 
