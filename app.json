@@ -37,6 +37,11 @@
       "description": "Your MusicPlayer's assistant Username without @.",
       "required": true
     },
+    "SUPPORT_GROUP": {
+      "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
+      "required": false,
+      "value": "THE_TVA"
+    },
     "ARQ_API_KEY": {
       "description": "Get from @ARQRobot.",
       "required": false
