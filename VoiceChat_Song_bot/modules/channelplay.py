@@ -26,7 +26,6 @@ from VoiceChat_Song_bot.modules.botplay import time_to_seconds
 from VoiceChat_Song_bot.modules.botplay import changeImageSize
 from VoiceChat_Song_bot.config import BOT_NAME as bn
 from VoiceChat_Song_bot.config import DURATION_LIMIT
-from VoiceChat_Song_bot.config import UPDATES_CHANNEL as updateschannel
 from VoiceChat_Song_bot.config import que
 from VoiceChat_Song_bot.functions.admins import admins as a
 from VoiceChat_Song_bot.helpers.errors import DurationLimitError
@@ -698,11 +697,6 @@ async def jiosaavn(client: Client, message_: Message):
             [
                 InlineKeyboardButton("📖 Playlist", callback_data="cplaylist"),
                 InlineKeyboardButton("Menu ⏯ ", callback_data="cmenu"),
-            ],
-            [
-                InlineKeyboardButton(
-                    text="Join Updates Channel", url=f"https://t.me/{updateschannel}"
-                )
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="ccls")],
         ]
