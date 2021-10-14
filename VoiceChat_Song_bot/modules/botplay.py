@@ -27,7 +27,6 @@ from youtube_search import YoutubeSearch
 from VoiceChat_Song_bot.config import ARQ_API_KEY
 from VoiceChat_Song_bot.config import BOT_NAME as bn
 from VoiceChat_Song_bot.config import DURATION_LIMIT
-from VoiceChat_Song_bot.config import UPDATES_CHANNEL as updateschannel
 from VoiceChat_Song_bot.config import que
 from VoiceChat_Song_bot.functions.admins import admins as a
 from VoiceChat_Song_bot.helpers.admins import get_administrators
@@ -978,11 +977,6 @@ async def jiosaavn(client: Client, message_: Message):
             [
                 InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
-            ],
-            [
-                InlineKeyboardButton(
-                    text="Join Updates Channel", url=f"https://t.me/{updateschannel}"
-                )
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
         ]
