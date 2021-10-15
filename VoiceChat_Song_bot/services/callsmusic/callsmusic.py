@@ -2,7 +2,7 @@ from typing import Dict
 
 from pytgcalls import GroupCallFactory
 
-from pyrogram import Client
+from VoiceChat_Song_bot.services.callsmusic
 from VoiceChat_Song_bot.services.queues import queues
 
 
